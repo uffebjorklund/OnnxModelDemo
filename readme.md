@@ -18,6 +18,7 @@ dotnet run
 ### Test
 
 Take a line from the `inferenceData.csv` file and send as an array to the endpoint.
+The model requires an array of floats with 20 items, more or less will cause an error
 
 Example...
 ```
